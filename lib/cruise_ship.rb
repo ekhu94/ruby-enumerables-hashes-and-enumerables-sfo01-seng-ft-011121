@@ -7,5 +7,5 @@
 # }
 
 def #select_winner(hash)
-  hash.each { |k, v| return v if v[0] == "A" && k == :suite_a }
+  hash.each { |k, v| return v if (v[0] == "A") && (k == :suite_a) }
 end

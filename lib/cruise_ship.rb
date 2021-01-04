@@ -6,7 +6,7 @@
 # suite_e: "Crumpet the Elf"
 # }
 
-def #select_winner(hash)
+def select_winner(hash)
   hash.each do |k, v|
     if (k == :suite_a) && (v[0] == "A")
       return v
